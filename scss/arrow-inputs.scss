@@ -1,0 +1,98 @@
+@use "variables" as v;
+
+
+
+    .arrow-input {
+
+        @font-face {
+            font-family: "proxEC";
+            src: url(fonts/fonts/Proxima-Nova-ExCn-Reg.otf) format("truetype");
+        }
+    
+        @font-face {
+            font-family: "gillS";
+            src: url(../fonts/fonts/GillSans.ttf) format("truetype");
+        }
+    
+        @font-face {
+            font-family: "gillL";
+            src: url(../fonts/fonts/GillSans-Light.ttf) format("truetype");
+        }
+    
+
+        width: 820px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 20px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: relative;
+        font-family: "gillL";
+
+        .arrow-p {
+            width: 74px;
+            margin-top: 20px;
+        }
+        input {
+            border: solid 1px rgb(120, 120, 255);
+            height: 58px;
+        }
+
+        .input-arrow {
+            height: 58px;
+            width: 103px;
+
+        }
+
+        input::placeholder {
+            font-family: "gillL";
+            position: absolute;
+            top: 20px;
+            left: 20px;
+          }
+
+          .box1 {
+            font-size: 32px;
+            position: absolute;
+            right: 20px;
+            top: 3px;
+        }
+        .box2 {
+            font-size: 32px;
+            position: absolute;
+            left: 495px;
+            top: 3px;
+        }
+        .box3 {
+            font-size: 32px;
+            position: absolute;
+            left: 195px;
+            top: 3px;
+        }
+    }
+
+
+    @media screen and (max-width: 840px) {
+        .arrow-input {
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+      
+          .box1 {
+            position: absolute;
+            top: 62px;
+            left: 421px;
+          }
+          .box2 {
+            position: absolute;
+            top: 202px;
+            left: 421px;
+          }
+          .box3 {
+            position: absolute;
+            top: 337px;
+            left: 421px;
+          }
+        }
+      }

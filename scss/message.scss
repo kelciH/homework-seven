@@ -1,0 +1,32 @@
+@use "variables" as v;
+
+.message-input {    
+    font-family: "gillL";
+    max-width: 820px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    input {
+        border: solid 1px rgb(120, 120, 255);
+        height: 58px;
+    }
+
+     .input-message {
+        height: 192px;
+        width: 100%;
+     }
+
+     input::placeholder {
+        font-family: "gillL";
+        position: absolute;
+        top: 20px;
+        left: 20px;
+      }
+}
+
+@media screen and (max-width: 840px) {
+    .message-input {
+        width: 700px;
+    }
+    
+}

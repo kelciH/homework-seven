@@ -1,0 +1,155 @@
+@use "variables" as v;
+
+.blank-space {
+    width: v.$content-width;
+    height: 202px;
+  }
+
+  
+    
+
+.special-header {
+    @font-face {
+        font-family: "proxEC7";
+        src: url(../fonts/fonts/ProximaNovaScOsfExtraCondensed.ttf) format("truetype");
+      }
+    
+      @font-face {
+        font-family: "gillS";
+        src: url(../fonts/fonts/GillSans.ttf) format("truetype");
+      }
+    
+      @font-face {
+        font-family: "gillSI";
+        src: url(../fonts/fonts/GillSans-Italic.ttf) format("truetype");
+      }
+    
+      max-width: 980px;
+      margin: 0 auto;
+  
+    .underline-special {
+      width: 199px;
+      border-top: solid 2px black;
+      margin-bottom: 36px;
+    }
+  
+    h1 {
+      margin-bottom: 0px;
+      font-family: "proxEC7";
+      font-size: 30px;
+      letter-spacing: 3px;
+    }
+  }
+
+  .specialOffer {
+    @font-face {
+        font-family: "proxEC7";
+        src: url(../fonts/fonts/ProximaNovaScOsfExtraCondensed.ttf) format("truetype");
+      }
+    
+      @font-face {
+        font-family: "gillS";
+        src: url(../fonts/fonts/GillSans.ttf) format("truetype");
+      }
+    
+      @font-face {
+        font-family: "gillSI";
+        src: url(../fonts/fonts/GillSans-Italic.ttf) format("truetype");
+      }
+    
+      max-width: 980px;
+      margin: 0 auto;
+
+      display: flex;
+      flex-direction: column;
+      //background-color: tan;
+
+  .special-format {
+
+    max-width: 520px;
+    min-height: 200px;
+
+    display: flex;
+    justify-content: space-between;
+
+    .special-img {
+        margin-bottom: 60px;
+
+        img {
+            width: 199px;
+            height: 287px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    .special-text {
+
+        .header {
+            display: flex;
+            
+            
+            h1 {
+                font-family: "proxEC7";
+                font-size: 30px;
+                margin-bottom: 0px;
+                letter-spacing: 3px;
+            }
+
+            p {
+                margin-top: 10px;
+                font-family: "proxEC7";
+                font-size: 20px;
+                color: #FF7D38;
+                margin-bottom: 0px;
+            }
+
+            
+            
+        }
+
+        .underline-special {
+            width: 199px;
+            border-top: solid 2px black;
+            margin-bottom: 36px;
+          }
+
+        .text {
+            width: 290px;
+
+            p{
+                font-family: "gillS";
+                font-size: 16px;
+            }
+            
+        }
+    }
+
+    .learn-more{
+        width: 133px;
+        height: 40px;
+        background-color: v.$blue-color;
+        color: #fff;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: "gillS";
+
+        margin-top: 52px;
+
+        a {
+              text-decoration: none;
+              color: #fff;
+        }
+
+    }
+
+  }
+
+}
+
+.SFspace {
+    height: 40px;
+    width: 100%;
+}

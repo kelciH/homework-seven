@@ -1,0 +1,119 @@
+@use "variables" as v;
+
+.blog-header {
+    @font-face {
+        font-family: "proxEC7";
+        src: url(../fonts/fonts/ProximaNovaScOsfExtraCondensed.ttf) format("truetype");
+      }
+    
+      @font-face {
+        font-family: "gillS";
+        src: url(../fonts/fonts/GillSans.ttf) format("truetype");
+      }
+    
+      @font-face {
+        font-family: "gillSI";
+        src: url(../fonts/fonts/GillSans-Italic.ttf) format("truetype");
+      }
+    
+      max-width: 980px;
+      margin: 0 auto;
+  
+    .underline-blog {
+      width: 106px;
+      border-top: solid 2px black;
+      margin-bottom: 36px;
+    }
+  
+    h1 {
+      margin-bottom: 0px;
+      font-family: "proxEC7";
+      font-size: 30px;
+      letter-spacing: 3px;
+    }
+  }
+
+  .blog-format {
+
+    @font-face {
+        font-family: "proxEC7";
+        src: url(../fonts/fonts/ProximaNovaScOsfExtraCondensed.ttf) format("truetype");
+      }
+    
+      @font-face {
+        font-family: "gillS";
+        src: url(../fonts/fonts/GillSans.ttf) format("truetype");
+      }
+
+      @font-face {
+        font-family: "gillB";
+        src: url(../fonts/fonts/GillSans-Bold.ttf) format("truetype");
+      }
+
+      @font-face {
+        font-family: "gillL";
+        src: url(../fonts/fonts/GillSans-Light.ttf) format("truetype");
+      }
+    
+      @font-face {
+        font-family: "gillSI";
+        src: url(../fonts/fonts/GillSans-Italic.ttf) format("truetype");
+      }
+    
+      max-width: 980px;
+      margin: 0 auto;
+      //background-color: tan;
+      display: flex;
+      justify-content: space-between;
+
+      .blog-calendar {
+        height: 60px;
+        width: 60px;
+        padding: 7px;
+        margin-right: 20px;
+        color: #fff;
+        background-color: v.$blue-color;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        p {
+            font-size: 22px;
+            font-family: "gillB";
+            margin-bottom: 0px;
+        }
+
+        h3 {
+            font-size: 12px;
+            font-family: "gillL";
+        }
+      }
+
+      .blog-other {
+
+        .blog-hero {
+           
+            img {
+                height: 259px;
+                width: 900px;
+            } 
+        }
+
+        .blog-text {
+            font-family: "gillS";
+            margin-bottom: 100px;
+
+            h3 {
+                font-size: 15px;
+            }
+
+            p {
+                font-size: 13px;
+                width: 380px;
+                color: v.$blue-color;
+            }
+        }
+      }
+
+  }

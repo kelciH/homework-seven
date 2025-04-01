@@ -1,0 +1,69 @@
+@use "variables" as v;
+
+.photo-container {
+
+    @font-face {
+        font-family: "proxNSeC";
+        src: url(../fonts/fonts/ProximaNovaScOsfExtraCondensed.ttf) format('truetype');
+    }
+
+    @font-face {
+        font-family: "gillI";
+        src: url(../fonts/fonts/GillSans-Italic.ttf) format("truetype");
+    }
+
+    height: v.$photo-container-height;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: tan;
+
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    
+
+    .hero-effects {
+
+        height: 300px;
+        width: 416px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: #fff;
+        text-align: center;
+        
+
+        h1 {
+            font-family: "proxNSeC";
+            font-size: 60px;
+        }
+
+        p {
+            font-family: "gillI";
+            font-size: 20px;
+        }
+        
+
+    .read-more {
+        height: 40px;
+        width: 121px;
+        background-color: v.$blue-color;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 11px;
+        font-size: 15px;
+        font-family: "proxNSeC";
+    }
+    }
+
+    
+    
+
+}

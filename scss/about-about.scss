@@ -1,0 +1,43 @@
+@use "variables" as v;
+
+.blank-space {
+  width: v.$content-width;
+  height: 202px;
+}
+
+.about-text {
+  @font-face {
+    font-family: "proxEC7";
+    src: url(../fonts/fonts/ProximaNovaScOsfExtraCondensed.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "gillS";
+    src: url(../fonts/fonts/GillSans.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "gillSI";
+    src: url(../fonts/fonts/GillSans-Italic.ttf) format("truetype");
+  }
+
+  max-width: 980px;
+  margin: 0 auto;
+
+  .underline-about {
+    width: 171px;
+    border-top: solid 2px black;
+    margin-bottom: 36px;
+  }
+
+  h1 {
+    margin-bottom: 0px;
+    font-family: "proxEC7";
+    font-size: 60px;
+  }
+
+  p {
+    font-family: "gillSI";
+    margin-bottom: 107px;
+  }
+}

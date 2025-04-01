@@ -1,0 +1,117 @@
+@use "variables" as v;
+
+.tours-hero {
+
+    height: 200px;
+    max-width: 980px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: tan;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/images/tour/tours-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+
+    margin: 0 auto;
+    margin-bottom: 48px;
+
+    .hero-text {
+        @font-face {
+            font-family: "proxEC2";
+            src: url(../fonts/fonts/ProximaNovaScOsfExtraCondensed.ttf) format("truetype");
+        }
+
+        font-family: "proxEC2";
+        font-size: 60px;
+        color: #fff;
+        letter-spacing: 50px;
+    }
+
+}
+
+
+.package-hero {
+
+    height: 413px;
+    max-width: 980px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: tan;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-position: center;
+    flex-direction: column;
+
+    margin-bottom: 48px;
+
+    position: relative;
+    padding: 0;
+
+    margin: 0 auto;
+
+
+    .package-headline {
+        @font-face {
+            font-family: "proxEC2";
+            src: url(../fonts/fonts/ProximaNovaScOsfExtraCondensed.ttf) format("truetype");
+        }
+
+        font-family: "proxEC2";
+        font-size: 80px;
+        color: #fff;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    .package-littleline {
+        @font-face {
+            font-family: "proxEC2";
+            src: url(../fonts/fonts/ProximaNovaScOsfExtraCondensed.ttf) format("truetype");
+        }
+
+        font-family: "proxEC2";
+        font-size: 30px;
+        color: #fff;
+        position: absolute;
+        bottom: -10px;
+        right: 5px;
+    }
+}
+
+.package-hero-i {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/images/tour/tour-01.jpg);
+}
+.package-hero-u {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/images/tour/tour-02.jpg);
+}
+.package-hero-a {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/images/tour/tour-03.jpg);
+}
+.package-hero-nz {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/images/tour/tour-04.jpg);
+}
+.package-hero-f {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/images/tour/tour-05.jpg);
+}
+.package-hero-e {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/images/tour/tour-06.jpg);
+}
+.package-hero-j {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/images/tour/tour-07.jpg);
+}
+.package-hero-c {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/images/tour/tour-08.jpg);
+}
+.package-hero-ua {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/images/tour/tour-09.jpg);
+}

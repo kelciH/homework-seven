@@ -1,0 +1,63 @@
+@use "variables" as v;
+.form-structure {
+  @font-face {
+    font-family: "proxEC";
+    src: url(fonts/fonts/Proxima-Nova-ExCn-Reg.otf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "gillS";
+    src: url(../fonts/fonts/GillSans.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "gillL";
+    src: url(../fonts/fonts/GillSans-Light.ttf) format("truetype");
+  }
+
+  h1 {
+    font-family: "proxEC";
+    width: 820px;
+    justify-content: left;
+  }
+  .top-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 60px;
+    justify-content: center;
+
+    input {
+      border: solid 1px rgb(120, 120, 255);
+      height: 58px;
+    }
+
+    .input-holder {
+      position: relative;
+    }
+
+    .box {
+      width: 10px;
+      height: 10px;
+      background-color: darkblue;
+      position: absolute;
+      right: 20px;
+      top: 25px;
+    }
+
+    .small {
+      width: 344px;
+    }
+
+    .big {
+      width: 453px;
+    }
+
+    input::placeholder {
+      font-family: "gillL";
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+  }
+}

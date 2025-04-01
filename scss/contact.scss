@@ -1,0 +1,123 @@
+@use "variables" as v;
+
+.contact-blank-space {
+    height: 160px;
+}
+
+.contact-header {
+    @font-face {
+        font-family: "proxEC7";
+        src: url(../fonts/fonts/ProximaNovaScOsfExtraCondensed.ttf) format("truetype");
+      }
+    
+      @font-face {
+        font-family: "gillS";
+        src: url(../fonts/fonts/GillSans.ttf) format("truetype");
+      }
+    
+      @font-face {
+        font-family: "gillSI";
+        src: url(../fonts/fonts/GillSans-Italic.ttf) format("truetype");
+      }
+    
+      max-width: 980px;
+      margin: 0 auto;
+  
+    .underline-contact {
+      width: 159px;
+      border-top: solid 2px black;
+      margin-bottom: 36px;
+    }
+  
+    h1 {
+      margin-bottom: 0px;
+      font-family: "proxEC7";
+      font-size: 30px;
+      letter-spacing: 3px;
+    }
+  }
+
+  .contact-format {
+    @font-face {
+        font-family: "proxEC7";
+        src: url(../fonts/fonts/ProximaNovaScOsfExtraCondensed.ttf) format("truetype");
+      }
+    
+      @font-face {
+        font-family: "gillS";
+        src: url(../fonts/fonts/GillSans.ttf) format("truetype");
+      }
+    
+      @font-face {
+        font-family: "gillL";
+        src: url(../fonts/fonts/GillSans-Light.ttf) format("truetype");
+      }
+
+      @font-face {
+        font-family: "gillSI";
+        src: url(../fonts/fonts/GillSans-Italic.ttf) format("truetype");
+      }
+    
+      max-width: 980px;
+      margin: 0 auto;
+
+      display: flex;
+      .map-side {
+
+        .map-img {
+
+            img {
+                height: 442px;
+                width: 400px;
+            }
+        }
+
+        .map-text {
+            width: 400px;
+            margin-top: 34px;
+            margin-bottom: 100px;
+
+            p {
+                font-size: 18px;
+                font-family: "gillL";
+                letter-spacing: 2px;
+            }
+        }
+      }
+
+      .form-side {
+
+        margin-left: 50px;
+
+        .name {
+            width: 529px;
+            height: 60px;
+            margin-bottom: 21px;
+            background-color: #F5F5F5;
+            padding-top: 21px;
+            padding-left: 21px;
+
+            p {
+                font-size: 16px;
+                font-family: "gillS";
+                opacity: 50%;
+            }
+        }
+
+        .message {
+            height: 199px;
+        }
+
+        .send-button {
+            width: 167px;
+            background-color: v.$blue-color;
+
+            p {
+                color: #fff;
+                opacity: 100%;
+                letter-spacing: 1px;
+            }
+        }
+
+      }
+  }
